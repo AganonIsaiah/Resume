@@ -1,0 +1,225 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
+\usepackage{ulem} 
+
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%----------HEADING----------
+% \begin{center}
+%     \textbf{\Huge \scshape Isaiah Aganon} \\ \vspace{1pt}
+%     \small +1 (365) 880-9158 $|$ 
+%     \href{https://webpage-aganonisaiahs-projects.vercel.app/}{\underline{IsaiahAganon.app}} $|$
+%     \href{mailto:IsaiahAganon@cmail.carleton.ca?subject=Re:%20Internship%20Application%20Status&body=Hello%20Isaiah,}{\underline{IsaiahAganon@cmail.carleton.ca}} $|$
+%     \href{https://www.linkedin.com/in/isaiah-aganon-888b892a8/}{\underline{linkedin/IsaiahAganon}} $|$
+%     \href{https://github.com/AganonIsaiah}{\underline{github/AganonIsaiah}}
+% \end{center}
+
+\begin{center}
+  \textbf{\Huge \scshape Isaiah Aganon} \\ \vspace{1pt}
+  \small
+  \faPhone\ +1 (365) 880-9158  
+  \hspace{5pt}
+  \faEnvelope\ \href{mailto:IsaiahAganon@cmail.carleton.ca?subject=Re:%20Internship%20Application%20Status&body=Hello%20Isaiah,}{\uline{IsaiahAganon@cmail.carleton.ca}} 
+  \hspace{5pt}
+  \faGlobe\ \href{https://webpage-aganonisaiahs-projects.vercel.app/}{\uline{Website}}
+  \hspace{5pt}
+  \faLinkedin\ \href{https://www.linkedin.com/in/isaiah-aganon-888b892a8/}{\uline{LinkedIn}}
+  \hspace{5pt}
+  \faGithub\ \href{https://github.com/AganonIsaiah}{\uline{GitHub}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Carleton University}{2027 (Expected)}
+      {Bachelor of Computer Science (Honours), Minor in Mathematics}{Ottawa, ON}
+      \resumeItemListStart
+        \resumeItem{{\bf Specialization}: Artificial Intelligence \& Machine Learning}
+        \resumeItem{{\bf Deans' Honour List}: 2022 -- 2024}
+        \resumeItem{{\bf Relevant Courswork}: Abstract Data Types \& Algorithms, Object-Oriented Software Engineering, Design \& Analysis of Algorithms, Discrete Structures I \& II, Database Management Systems, Statistical Modeling I}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading{RBC}{May. 2025 -- Dec. 2025}{Software Developer Intern}{Toronto, ON}
+        \resumeItemListStart    
+            \resumeItem{Incoming intern.}
+        \resumeItemListEnd
+    
+    \resumeSubheading{Carleton University}{Jan. 2025 -- Present}{Teaching Assistant (Fundamentals of Web Applications)}{Ottawa, ON}
+        \resumeItemListStart
+            \resumeItem{Delivered weekly tutorials for a class section of 33 students, covering web development using HTML, CSS,
+            JavaScript, SQLite, and Node.js for back-end development.}
+            \resumeItem{Guided students through hands-on projects utilizing Node.js, Express.js, and React, emphasizing RESTful APIs,
+            component-based architecture, and state management.}
+            \resumeItem{Taught debugging techniques in Node.js and React applications, including using browser DevTools and React
+            DevTools for performance tuning and troubleshooting.}
+        \resumeItemListEnd
+
+    \resumeSubheading{Carleton University}{Sep. 2024 -- Dec. 2024}{Teaching Assistant (Fundamentals of Web Applications)}{Ottawa, ON}
+        \resumeItemListStart
+            \resumeItem{Conducted weekly tutorials for a class section of 47 students, focusing on web development fundamentals, including
+            HTML, CSS, JavaScript, SQLite, and Deno for back-end development.}
+            \resumeItem{Introduced students to Deno’s Fresh framework, TypeScript, and Tailwind CSS, guiding them through the process
+            of building a full-stack web application project, integrating front-end and back-end components.}
+            \resumeItem{Assisted students with using Chrome DevTools to inspect elements, debug JavaScript errors, and analyze network
+            requests for failed API calls, ensuring faster resolution to programming challenges.}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+ \resumeSubHeadingListStart
+
+ \resumeProjectHeading{\href{https://github.com/AganonIsaiah/Webpage-App}
+ {{\faGithub} {\bf Digital Profile App} $|$ {\textit{JavaScript, Node.js, React, CSS, Vercel}}}} {}
+    \resumeItemListStart
+      \resumeItem{Created an iMessage-styled digital profile webpage with a React front-end and Node.js back-end, displaying interactive, command-based messages that showcase my biography, resume, work experience, and projects.}
+      \resumeItem{Deployed the application on Vercel, leveraging its severless architecture for fast performance, automatic scaling, and seamless CI/CD integration.}
+    \resumeItemListEnd
+
+ \resumeProjectHeading{
+    \href{https://github.com/AganonIsaiah/French-Learning-App}
+    {{\faGithub} {\bf French Speaking App} $|$ {\textit{Java, Spring Boot, HTML, CSS}}}} {}
+    \resumeItemListStart
+        \resumeItem{Designed and implemented a full-stack web application leveraging Spring Boot to support French language learners
+        in practicing and receiving feedback on their oral production skills.}
+        \resumeItem{Integrated third-party APIs, including Voice RSS for text-to-speech functionality and AssemblyAI for advanced
+        speech analysis, providing users with real-time pronunciation and fluency feedback.}
+    \resumeItemListEnd
+
+\resumeProjectHeading{
+    \href{https://github.com/AganonIsaiah/Music-Listening-App}
+    {{\faGithub} {\bf Music Playlist App} $|$ {\textit{JavaScript, Node.js, Handlebars.js, SQLite}}}} {}
+    \resumeItemListStart
+        \resumeItem{Developed a dynamic full-stack music management application with a Handlebars.js front-end and Node.js
+        back-end, allowing users to create, organize, and manage personalized music playlists.}
+        \resumeItem{Utilized the YouTube Data API v3 to fetch music data and implemented SQLite for persistent storage of playlists
+        and music preferences.}
+    \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+% \resumeProjectHeading{
+%     \href{https://github.com/AganonIsaiah/NetshWebFinder}
+%     {{\faGithub} {\bf Network Information App} $|$ {\emph{JavaScript, Node.js, React, CSS}}}} {}
+%     \resumeItemListStart
+%         \resumeItem{Engineered a comprehensive tool for managing Wi-Fi network information with a React front-end and Node.js
+%         back-end, enabling users to display, add, and remove networks.}
+%         \resumeItem{Employed shell commands and asynchronous processes to gather, store, and remove network data, optimizing
+%         performance for real-time network operations.}
+%     \resumeItemListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Java, JavaScript, TypeScript, C, C++, SQL} \\
+     \textbf{Frameworks \& Libraries}{: React, Node.js, Deno, Express.js, Spring Boot, Tailwind CSS} \\
+     \textbf{Developer Tools}{: Git, Docker, Linux, Vim, VS Code, IntelliJ, Vercel} \\
+    \textbf{Spoken Languages}{: English (Native), French (Limited Working Proficiency)}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
