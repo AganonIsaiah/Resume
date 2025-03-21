@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.4)  21 MAR 2025 12:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.4)  21 MAR 2025 12:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -266,13 +266,7 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 \ULC@box=\box58
 Package: ulem 2019/11/18
 \ULdepth=\dimen163
-) (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/charter.sty
-Package: charter 2020/03/25 PSNFSS-v9.3 (P.Dyballa) 
-)
-LaTeX Font Info:    Trying to load font information for OT1+bch on input line 95.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1bch.fd
-File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
-) (./Resume_Isaiah_Aganon.aux)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex) (./Resume_Isaiah_Aganon.aux)
 \openout1 = `Resume_Isaiah_Aganon.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
@@ -317,8 +311,13 @@ Package hyperref Info: Link coloring OFF on input line 95.
 \@outlinefile=\write3
 \openout3 = `Resume_Isaiah_Aganon.out'.
 
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 108.
+
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 110.
- (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 112.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 116.
@@ -339,10 +338,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 129.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 130.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 140.
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10.95> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 173.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -351,27 +346,31 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (./Resume_Isaiah_Aganon.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (./Resume_Isaiah_Aganon.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `Resume_Isaiah_Aganon.out' has not changed.
 (rerunfilecheck)             Checksum: 8178769A591DAE54593BE5DC5893BD68;390.
  ) 
 Here is how much of TeX's memory you used:
- 14271 strings out of 474222
- 245018 string characters out of 5748733
- 1953975 words of memory out of 5000000
- 36322 multiletter control sequences out of 15000+600000
- 587901 words of font info for 85 fonts, out of 8000000 for 9000
+ 14189 strings out of 474222
+ 243646 string characters out of 5748733
+ 1955975 words of memory out of 5000000
+ 36263 multiletter control sequences out of 15000+600000
+ 564957 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,333b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on Resume_Isaiah_Aganon.pdf (1 page, 97387 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Resume_Isaiah_Aganon.pdf (1 page, 134400 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
